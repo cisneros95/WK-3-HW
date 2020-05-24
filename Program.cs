@@ -22,7 +22,7 @@ namespace IF_STATEMENTS
             int num02 = numberGenerator.Next(100,999);
 
 
-            Console.WriteLine("What is ? \n   " + num01 +"\n + " + num02 + "\n============"); /// \n will create a new line
+            Console.WriteLine("What is ? \n   " + num01 +"\n + " + num02 + "\n----------"); /// \n will create a new line
             int answer = Convert.ToInt32(Console.ReadLine( ));
 
             if (answer == num01 + num02)
